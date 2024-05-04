@@ -1,11 +1,17 @@
-#TypeCasting
-a = "1.1"
-b = "2.1j"
-#a = 1
-#b = 2
-print(float(a) + complex(b))
+_a = float,complex (1.3, 12.4j)
+name = "Rosheel"
+Girlname = "esneha"
+_b = ("hi im a boy", name, Girlname) 
 
-#Imlicit TypeCasting
-c = 1.9
-d = 8
-print(c + d)
+print(_a)
+print(_b)
+
+if input ("esneha"):
+  print("Welcome Esneha ❤️")
+
+else: 
+  input_class = str ("Im not esneha")
+  print("FuckYou")
+
+for input in range(700):
+  print("esneha I love you\n🥀💐🌺♥️")
